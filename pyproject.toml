@@ -6,7 +6,7 @@ authors = ["Rodolfo Marques"]
 license = "GPL-3.0"
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.8"
 
 [tool.poetry.dev-dependencies]
 
