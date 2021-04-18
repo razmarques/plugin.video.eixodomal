@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.addon.id" name="Eixo do Mal" version="1.0.0" provider-name="Rodolfo Marques">
   <requires>
-    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="xbmc.python" version="3.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">A scraper for the show Eixo do Mal</summary>
-    <description lang="en_GB">The Eixo do Mal plugin scrapes this show's episodes freely available in its website</description>
+    <description lang="en_GB">The Eixo do Mal plugin scrapes this show's episodes from Sic Notícias website</description>
     <disclaimer lang="en_GB">Feel free to use this script.</disclaimer>
     <language>pt</language> <!-- the language of the videos or other content the plugin provides, may be omitted in case the addon does not provide any content -->
     <platform>all</platform>
@@ -18,12 +18,13 @@
     <news>v0.1.0 (31/12/2012)
       [new] First version
     </news>
-<!--    <assets>-->
-<!--        <icon>resources/icon.png</icon>-->
-<!--        <fanart>resources/fanart.jpg</fanart>-->
-<!--        <banner></banner> &lt;!&ndash; optional &ndash;&gt;-->
-<!--        <clearlogo>resources/clearlogo.png</clearlogo> &lt;!&ndash; optional  &ndash;&gt;-->
-<!--        <screenshot></screenshot> &lt;!&ndash; optional, max 10  &ndash;&gt;-->
-<!--    </assets>-->
+   <assets>
+       <icon>resources/eixodomal.png</icon>
+       <!-- <fanart>resources/fanart.jpg</fanart> -->
+       <!-- <banner></banner> &lt;!&ndash; optional &ndash;&gt; -->
+       <!-- <clearlogo>resources/clearlogo.png</clearlogo> &lt;!&ndash; optional  &ndash;&gt; -->
+       <!-- <screenshot></screenshot> &lt;!&ndash; optional, max 10  &ndash;&gt; -->
+   </assets>
   </extension>
 </addon>
+  
